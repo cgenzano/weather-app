@@ -1,7 +1,14 @@
+body {
+  background-image: url("https://media.istockphoto.com/photos/beautiful-sky-with-white-cloud-picture-id1092506504?k=6&m=1092506504&s=612x612&w=0&h=bsGWBc6b2160tBEUQuLUbyjSknPUzQTqWB5uEjjrNmI=");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
 p {
   text-align: center;
-  border: 1px solid black;
-  border-radius: 30px;
+}
+h5 {
+  text-align: center;
+  text-decoration: underline;
   color: black;
 }
 h4,
@@ -22,12 +29,18 @@ h3 {
   padding-top: 15px;
   text-align: center;
 }
+
+#color-correct {
+  background-color: #63a4ff;
+  background-image: linear-gradient(315deg, #00ffff 0%, #1cb5e0 74%);
+}
 .border {
   display: block;
   margin: 0 auto;
 }
 .container {
-  margin: 20px;
+  margin: 30px;
+  padding: 30px;
 }
 
 .col-4 {
@@ -35,11 +48,13 @@ h3 {
 }
 .card {
   background-color: #63a4ff;
-  background-image: linear-gradient(315deg, #63a4ff 0%, #83eaf1 74%);
+  background-image: linear-gradient(315deg, #00ffff 0%, #1cb5e0 74%);
+  border-radius: 20px;
 }
-.col-8 {
-  background-color: #63a4ff;
-  background-image: linear-gradient(315deg, #63a4ff 0%, #83eaf1 74%);
+.col-12 {
+  display: block;
+  border-radius: 20px;
+  padding: 20px;
 }
 .heading {
   margin-top: 20px;
