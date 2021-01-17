@@ -2,7 +2,7 @@ p {
   text-align: center;
   border: 1px solid black;
   border-radius: 30px;
-  color: #4d0066;
+  color: black;
 }
 h4,
 h5,
@@ -29,23 +29,15 @@ h3 {
 .container {
   margin: 20px;
 }
-.main {
-  background-color: #63a4ff;
-  background-image: linear-gradient(315deg, #63a4ff 0%, #83eaf1 74%);
-}
-.mini {
-  width: 60px;
-  display: block;
-  margin: 0 auto;
-}
+
 .col-4 {
   margin-bottom: 15px;
 }
-.col-8 {
+.card {
   background-color: #63a4ff;
   background-image: linear-gradient(315deg, #63a4ff 0%, #83eaf1 74%);
 }
-.card {
+.col-8 {
   background-color: #63a4ff;
   background-image: linear-gradient(315deg, #63a4ff 0%, #83eaf1 74%);
 }
