@@ -36,7 +36,7 @@ function displayTemp(response) {
 
 function changeCity(event) {
   event.preventDefault();
-  let cityPlace = document.querySelector("h4");
+  let cityPlace = document.querySelector("h1");
   let cityValue = document.querySelector("#city-value");
   cityPlace.innerHTML = cityValue.value;
   let city = cityValue.value;
