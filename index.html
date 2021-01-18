@@ -45,9 +45,17 @@
                   <h4 id="time">4:31 PM</h4>
                 </div>
               </div>
+              <div>
+                <p id="forecast"></p>
+              </div>
               <div class="row">
-                <div class="col-12">
-                  <h3 class="temp" id="temp">##°F</h3>
+                <div id=centerTemp class="col-6">
+                  <h3 class="temp" id="temp">##</h3>
+                  <h3 span class="units"><a href="#" id="fahrenheit-link">°F</a> |
+                  <a href="#" id="celsius-link">°C</a></span></h3>
+                </div>
+                <div class="col-6">
+                  <img src="http://openweathermap.org/img/wn/01n@2x.png" width="150" height="150" alt="Clear" id="photo" />
                 </div>
               </div>
 
@@ -55,7 +63,7 @@
               <br />
               <div class="row">
                 <div class="col-6">
-                  <h5 class="subhead">Precipitation</h5>
+                  <h5 class="subhead">Humidity</h5>
                 </div>
                 <div class="col-6">
                   <h5 class="subhead">Wind Speed</h5>
